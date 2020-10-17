@@ -4,11 +4,15 @@
 }
 
 @font-face {
-  font-family: 'Cinzel';
-  src: url('../daschfortner.github.io/fonts/Cinzel-Regular.ttf') format('truetype');
+  font-family: 'CormorantSC';
+  src: url('../daschfortner.github.io/fonts/CormorantSC-Light.ttf') format('truetype');
+}
+
+html {
+  color: var(--main-bg-color);
 }
 
 h1 {
-  font-family: 'Cinzel';
+  font-family: 'CormorantSC';
   color: var(--main-text-color);
 }
