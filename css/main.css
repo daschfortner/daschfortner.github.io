@@ -1,9 +1,14 @@
 @font-face {
-  font-family: "IMFellEnglish";
-  src: url('../daschfortner.github.io/IMFellEnglish-Regular.ttf') format('truetype');
+  font-family: 'IMFellEnglish';
+  src: url('../daschfortner.github.io/fonts/IMFellEnglish-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'UnifrakturCook';
+  src: url('../daschfortner.github.io/fonts/UnifrakturCook-Bold.ttf') format('truetype');
 }
 
 h1 {
-  font-family: "IMFellEnglish"
+  font-family: 'UnifrakturCook'
   color: var(--main-text-color)
 }
