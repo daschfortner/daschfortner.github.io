@@ -4,11 +4,11 @@
 }
 
 @font-face {
-  font-family: 'UnifrakturCook';
-  src: url('../daschfortner.github.io/fonts/UnifrakturCook-Bold.ttf') format('truetype');
+  font-family: 'Cinzel';
+  src: url('../daschfortner.github.io/fonts/Cinzel-Medium.ttf') format('truetype');
 }
 
 h1 {
-  font-family: 'UnifrakturCook'
+  font-family: 'UnifrakturCook';
   color: var(--main-text-color)
 }
