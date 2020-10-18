@@ -34,7 +34,11 @@ html {
   font-size: large;
 }
 
-.full-width-image {
+.image-wrapper {
+  width: 100%;
+}
+
+.image-wrapper img {
   width: 100%;
 }
 
@@ -52,4 +56,8 @@ html {
   border: none;
   border-top: 2px solid var(--main-fg-color);
   width: 100%;
+}
+
+.large-margin {
+  margin: 40px;
 }
