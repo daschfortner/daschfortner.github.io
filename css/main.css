@@ -28,6 +28,13 @@ html {
   text-align: center;
 }
 
+.heading-text {
+  color: var(--main-fg-color);
+  font-family: 'IMFellEnglish';
+  font-size: xxx-large;
+  text-align: center;
+}
+
 .paragraph-text {
   color: var(--main-fg-color);
   font-family: 'IMFellEnglish';
@@ -55,6 +62,13 @@ html {
   /* clear the border first, then add in the top and the bottom */
   border: none;
   border-top: 2px solid var(--main-fg-color);
+  width: 100%;
+}
+
+.thin-divider {
+  /* clear the border first, then add in the top and the bottom */
+  border: none;
+  border-top: 1px solid var(--main-fg-color);
   width: 100%;
 }
 
