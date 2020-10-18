@@ -34,6 +34,10 @@ html {
   font-size: large;
 }
 
+.full-width-image {
+  width: 100%;
+}
+
 .double-divider {
   /* clear the border first, then add in the top and the bottom */
   border: none;
