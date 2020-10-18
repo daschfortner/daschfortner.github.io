@@ -12,6 +12,7 @@ html {
   background-color: var(--main-bg-color);
 }
 
+/* Breakpoint from phone to desktop: 800px */
 @media (min-width: 800px) {
   #main-column {
     width: 800px;
@@ -21,13 +22,19 @@ html {
 }
 
 .title-text {
-  color: var(--main-text-color);
+  color: var(--main-fg-color);
   font-family: 'CormorantSC';
   font-size: xxx-large;
 }
 
 .paragraph-text {
-  color: var(--main-text-color);
+  color: var(--main-fg-color);
   font-family: 'IMFellEnglish';
   font-size: large;
+}
+
+.divider {
+  border-top: 1px solid var(--main-fg-color);
+  border-bottom: 1px solid var(--main-fg-color);
+  width: 100%;
 }
