@@ -12,18 +12,22 @@ html {
   background-color: var(--main-bg-color);
 }
 
-#main-column {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+@media (min-width: 800px) {
+  #main-column {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .title-text {
-  font-family: 'CormorantSC';
   color: var(--main-text-color);
+  font-family: 'CormorantSC';
+  font-size: xxx-large;
 }
 
 .paragraph-text {
-  font-family: 'IMFellEnglish';
   color: var(--main-text-color);
+  font-family: 'IMFellEnglish';
+  font-size: large;
 }
