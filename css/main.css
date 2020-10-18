@@ -33,8 +33,18 @@ html {
   font-size: large;
 }
 
-.divider {
+.thick-divider {
+  /* clear the border first, then add in the top and the bottom */
+  border: none;
   border-top: 1px solid var(--main-fg-color);
   border-bottom: 1px solid var(--main-fg-color);
+  height: 1px;
+  width: 100%;
+}
+
+.double-divider {
+  /* clear the border first, then add in the top and the bottom */
+  border: none;
+  border-top: 2px solid var(--main-fg-color);
   width: 100%;
 }
