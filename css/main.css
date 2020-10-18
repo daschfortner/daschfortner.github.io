@@ -25,6 +25,7 @@ html {
   color: var(--main-fg-color);
   font-family: 'CormorantSC';
   font-size: xxx-large;
+  text-align: center;
 }
 
 .paragraph-text {
