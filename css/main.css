@@ -34,7 +34,7 @@ html {
   font-size: large;
 }
 
-.thick-divider {
+.double-divider {
   /* clear the border first, then add in the top and the bottom */
   border: none;
   border-top: 1px solid var(--main-fg-color);
@@ -43,7 +43,7 @@ html {
   width: 100%;
 }
 
-.double-divider {
+.thick-divider {
   /* clear the border first, then add in the top and the bottom */
   border: none;
   border-top: 2px solid var(--main-fg-color);
