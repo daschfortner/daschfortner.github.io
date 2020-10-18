@@ -12,7 +12,12 @@ html {
   background-color: var(--main-bg-color);
 }
 
-h1 {
+.title-text {
   font-family: 'CormorantSC';
+  color: var(--main-text-color);
+}
+
+.paragraph-text {
+  font-family: 'IMFellEnglish';
   color: var(--main-text-color);
 }
