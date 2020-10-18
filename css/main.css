@@ -39,8 +39,7 @@ html {
 }
 
 .bordered-image {
-  border: 2px solid var(--main-fg-color);
-  box-shadow: 0px 0px 25px -10px var(--main-fg-color);
+  border: 3px solid var(--main-fg-color);
 }
 
 .double-divider {
