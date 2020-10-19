@@ -25,6 +25,7 @@ html {
   color: var(--main-fg-color);
   font-family: 'CormorantSC';
   font-size: xxx-large;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -47,6 +48,15 @@ html {
 
 .bordered-image {
   border: 3px solid var(--main-fg-color);
+}
+
+.two-column {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.two-column div {
+  max-width: 800px;
 }
 
 .double-divider {
