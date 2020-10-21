@@ -12,13 +12,8 @@ html {
   background-color: var(--main-bg-color);
 }
 
-/* Breakpoint from phone to desktop: 800px */
-@media (min-width: 800px) {
-  #main-column {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+#main-column {
+  min-width: 400px;
 }
 
 #header {
@@ -26,6 +21,15 @@ html {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
+}
+
+/* Breakpoint from phone to desktop: 800px */
+@media (min-width: 800px) {
+  #main-column {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .title-text {
