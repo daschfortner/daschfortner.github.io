@@ -28,11 +28,12 @@ html {
   justify-content: space-around;
 }
 
-#header a {
+#header a, #header a:visited {
   color: var(--main-fg-color);
   font-family: 'CormorantSC';
   font-size: large;
   text-align: center;
+  text-decoration: none;
 }
 
 /* Breakpoint from phone to desktop: 800px */
