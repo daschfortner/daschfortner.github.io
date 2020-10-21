@@ -10,6 +10,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <script src="scripts/functions.js"></script>
+
   </head>
 
   <div id="main-column">
@@ -60,7 +62,14 @@
 
     <div class="two-column">
       <div class="skills-box image-wrapper">
-        <img src="images/responsive.svg"></img>
+        <img class="clickable" src="images/responsive.svg" onclick="showById('responsive-box');"></img>
+        <div class="clickable hide" id="responsive-box" onclick="hideById('responsive-box');">
+          <p class="paragraph-text">
+            When I worked at EduSource, I worked on two different websites that required
+            support for every major browser. One of these sites required mobile support as well.
+            Additionally, I helped develop a fully responsive webiste during a hackathon. 
+          </p>
+        </div>
       </div>
 
       <div class="skills-box">
