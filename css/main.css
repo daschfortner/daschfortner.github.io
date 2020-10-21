@@ -111,5 +111,6 @@ html {
 }
 
 .skills-box {
-  border: 1px solid var(--main-fg-color);
+  border: 3px solid var(--main-fg-color);
+  margin: 10px;
 }
