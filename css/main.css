@@ -25,6 +25,14 @@ html {
 
 #header div {
   display: flex;
+  justify-content: space-around;
+}
+
+#header a {
+  color: var(--main-fg-color);
+  font-family: 'CormorantSC';
+  font-size: large;
+  text-align: center;
 }
 
 /* Breakpoint from phone to desktop: 800px */
