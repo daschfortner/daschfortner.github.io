@@ -23,6 +23,10 @@ html {
   top: 0;
 }
 
+#header div {
+  display: flex;
+}
+
 /* Breakpoint from phone to desktop: 800px */
 @media (min-width: 800px) {
   #main-column {
