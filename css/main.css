@@ -21,6 +21,13 @@ html {
   }
 }
 
+#header {
+  background-color: var(--main-bg-color);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
 .title-text {
   color: var(--main-fg-color);
   font-family: 'CormorantSC';
