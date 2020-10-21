@@ -108,3 +108,7 @@ html {
 .large-margin {
   margin: 40px;
 }
+
+.skills-box {
+  border: 1px solid var(--main-fg-color);
+}
