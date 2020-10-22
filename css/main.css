@@ -161,5 +161,6 @@ html {
 
 .article-columns {
   column-width: 300px;
+  column-gap: 5px;
   column-rule: 2px solid var(--main-fg-color);
 }
