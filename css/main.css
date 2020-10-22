@@ -152,6 +152,7 @@ html {
   color: var(--main-fg-color);
   font-family: 'Oswald';
   font-size: xx-large;
+  text-transform: uppercase;
 }
 
 .center {
