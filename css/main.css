@@ -160,6 +160,6 @@ html {
 }
 
 .article-columns {
-  column-width: 400px;
+  column-width: 300px;
   column-rule: 2px solid var(--main-fg-color);
 }
