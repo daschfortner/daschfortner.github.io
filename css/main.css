@@ -67,6 +67,10 @@ html {
   font-size: large;
 }
 
+.paragraph-text a {
+  color: var(--main-fg-color);
+}
+
 .image-wrapper img {
   width: 100%;
 }
