@@ -158,3 +158,8 @@ html {
 .center {
   text-align: center;
 }
+
+.article-columns {
+  column-width: 400px;
+  column-rule: 2px solid var(--main-fg-color);
+}
