@@ -8,6 +8,11 @@
   src: url('../daschfortner.github.io/fonts/CormorantSC-Light.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Oswald';
+  src: url('../daschfortner.github.io/fonts/Oswald-Regular.ttf') format('truetype');
+}
+
 html {
   background-color: var(--main-bg-color);
 }
@@ -141,4 +146,14 @@ html {
 
 .show {
   visibility: visible;
+}
+
+.article-header {
+  color: var(--main-fg-color);
+  font-family: 'Oswald';
+  font-size: xx-large;
+}
+
+.center {
+  text-align: center;
 }
