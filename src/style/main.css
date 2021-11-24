@@ -1,0 +1,59 @@
+/*
+ *  main.css
+ *
+ *  The main.css file is for site-wide styling. 
+ *
+ *  This file overrides many of the styles for default HTML tags and defines
+ *  many color variables in the root context.
+ *
+ * * * */
+
+:root {
+  --main-bg: #ebe6e1;
+  --main-fg: #362c22;
+}
+
+/*
+ *  Overrides
+ *
+ * * * */
+body {
+  color: var(--main-fg);
+  background: var(--main-bg);
+  font-family: "IM Fell English", serif;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+
+/*
+ *
+ * * * */
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
+
+h2 {
+  font-size: xx-large;
+  text-transform: uppercase;
+  letter-spacing: 1.25rem;
+}
+
+/*
+ *
+ *
+ * * * */
+p {
+  text-align: left;
+  font-size: 1.25em;
+  letter-spacing: .1rem;
+}
+
+p::first-letter {
+  float: left;
+  font-size: 50px;
+  line-height: 50px;
+  padding-right: 16px;
+}
+
