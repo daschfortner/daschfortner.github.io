@@ -1,0 +1,21 @@
+/*
+ *  Button styles
+ *
+ * * * */
+
+.button {
+  cursor: pointer;
+  display: flex;
+  flex-basis: 0;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  letter-spacing: 1rem;
+  text-decoration: none;
+  text-size: 1em;
+  text-transform: uppercase;
+}
+
+div.button:hover {
+  backdrop-filter: brightness(0.9);
+}

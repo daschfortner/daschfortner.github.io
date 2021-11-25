@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Title from './components/title/Title.js'
+import Button from './components/button/Button.js'
 import Divider from './components/divider/Divider.js'
 import TextBlock from './components/textblock/TextBlock.js'
 
@@ -8,7 +9,12 @@ const App = () => {
   return (
     <div className="App">
       <Title />
-      <Divider />
+      <Divider>
+        <Button>About</Button>
+        <Button>Skills</Button>
+        <Button>Work</Button>
+        <Button>Other</Button>
+      </Divider>
       <TextBlock headingText="Welcome" splitColumn={true}>
         Hello, and welcome to my humble corner of the internet.
         The title of this site bears my name. I live in the Dayton, Ohio area

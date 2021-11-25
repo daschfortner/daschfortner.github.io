@@ -6,7 +6,10 @@
  * * * */
 
 .divider {
-  height: 20px;
+  display: flex;
+  flex: 1;
+  height: 30px;
+  justify-content: space-between;
 }
 
 .divider-top-border {
